@@ -160,8 +160,7 @@ Reviewed:
     <img src="image9.png">
 </p>
 
-<h3 align="center">After verifying that logs were successfully ingested, I created a scheduled analytics rule in Microsoft Sentinel.
-</h3>
+<h3 align="center">After confirming successful log ingestion, I configured a scheduled analytics rule in Microsoft Sentinel to monitor suspicious Azure resource creation activity</h3>
 
 <p align="center">
     <img src="image10.png">
@@ -179,7 +178,7 @@ Reviewed:
     <img src="image12.png">
 </p>
 
-<h3 align="center">After creating the analytics rule and simulating resource creation activity, Microsoft Sentinel automatically generated an incident.</h3>
+<h3 align="center">After the alert was generated, I opened the incident in Microsoft Sentinel to investigate further</h3>
 
 <p align="center">
     <img src="image13.png">
