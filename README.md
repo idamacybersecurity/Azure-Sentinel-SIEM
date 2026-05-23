@@ -6,28 +6,28 @@ This project demonstrates the deployment and configuration of a cloud-based Secu
 
 The objective was to:
 
-Deploy Azure resources
+- Deploy Azure resources
 
-Enable log ingestion
+- Enable log ingestion
 
-Create detection rules
+- Create detection rules
 
-Simulate suspicious activity
+- Simulate suspicious activity
 
-Generate and investigate security incidents
+- Generate and investigate security incidents
 
 
 ## 🏗️ Environment Setup
 
-Microsoft Azure subscription
+- Microsoft Azure subscription
 
-Resource Group (SOC-LAB-RG)
+- Resource Group (SOC-LAB-RG)
 
-Log Analytics Workspace
+- Log Analytics Workspace
 
-Microsoft Sentinel enabled
+- Microsoft Sentinel enabled
 
-Azure Activity logs connected
+- Azure Activity logs connected
 
 
 ## 📊 Log Ingestion Verification
@@ -44,15 +44,15 @@ Verified that Azure Activity logs were successfully ingested into the Log Analyt
 
 Created a scheduled analytics rule:
 
-Rule Name: Suspicious Azure Resource Creation Activity
+- Rule Name: Suspicious Azure Resource Creation Activity
 
-Data Source: AzureActivity
+- Data Source: AzureActivity
 
-Detection Logic: OperationName contains "write"
+- Detection Logic: OperationName contains "write"
 
-Severity: Medium
+- Severity: Medium
 
-MITRE ATT&CK mapping applied
+- MITRE ATT&CK mapping applied
 
 ## 🧪 Simulated Suspicious Activity
 
@@ -68,37 +68,33 @@ The analytics rule successfully generated an incident in Microsoft Sentinel.
 
 Reviewed:
 
-Alert timeline
-
-Detection details
-
-Associated entities
-
-Incident status
-
-Demonstrated end-to-end detection and investigation workflow.
+- Alert timeline
+- Detection details
+- Associated entities
+- Incident status
+- Demonstrated end-to-end detection and investigation workflow.
 
 
 ## 🛠️ Tools & Technologies
 
-Microsoft Azure
+- Microsoft Azure
 
-Microsoft Sentinel
+- Microsoft Sentinel
 
-Kusto Query Language (KQL)
+- Kusto Query Language (KQL)
 
 
 ## 🎯 Key Skills Demonstrated
 
-Cloud SIEM deployment
+- Cloud SIEM deployment
 
-Log ingestion configuration
+- Log ingestion configuration
 
-Detection rule creation
+- Detection rule creation
 
-Incident investigation
+- Incident investigation
 
-Threat monitoring in cloud environments
+- Threat monitoring in cloud environments
 
 ### 📊 Evidence 
 
